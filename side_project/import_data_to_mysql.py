@@ -8,7 +8,7 @@ try:
     connection = mysql.connector.connect(
         host = "localhost",
         user = "root",
-        password = "*********",
+        password = "your password",
         database = "superstore",
         charset='utf8mb4'
     )
